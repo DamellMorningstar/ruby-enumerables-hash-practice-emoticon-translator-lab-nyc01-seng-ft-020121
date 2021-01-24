@@ -10,8 +10,7 @@ def load_library(path)
     translator[key] = {}
     translator[key][:english] = value[0]
     translator[key][:Japanese] = value[1]
-
-
+end
 end
 
 def get_japanese_emoticon
